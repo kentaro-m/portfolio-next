@@ -57,7 +57,7 @@ export function ProjectsSection() {
           Some of the projects I&apos;ve worked on in my spare time.
         </p>
       </div>
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-1 md:max-w-[64rem] md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-1 md:max-w-[67.5rem] md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <Card key={index} className="flex flex-col">
             <CardHeader>

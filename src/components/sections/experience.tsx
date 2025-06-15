@@ -48,7 +48,7 @@ export function ExperienceSection() {
           My professional journey and the roles that shaped my career.
         </p>
       </div>
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-1 md:max-w-[64rem] md:grid-cols-1">
+      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-1 md:max-w-[67.5rem] md:grid-cols-1">
         {experiences.map((exp, index) => (
           <Card key={index}>
             <CardHeader>

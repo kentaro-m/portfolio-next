@@ -48,7 +48,7 @@ export function SkillsSection() {
           Technologies and tools I use to bring ideas to life.
         </p>
       </div>
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-2">
+      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[67.5rem] md:grid-cols-2">
         {skillCategories.map((category, index) => (
           <Card key={index}>
             <CardHeader>

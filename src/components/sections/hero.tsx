@@ -5,7 +5,7 @@ import Link from "next/link";
 export function HeroSection() {
   return (
     <section className="container space-y-10 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
-      <div className="flex max-w-[64rem] flex-col items-center gap-4 text-center">
+      <div className="mx-auto flex max-w-[67.5rem] flex-col items-center gap-4 text-center">
         <h1 className="font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
           Hi, I&apos;m{" "}
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">

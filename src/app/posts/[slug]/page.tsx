@@ -69,7 +69,7 @@ export default async function PostPage({ params }: PostPageProps) {
         authorName="Your Name"
         siteUrl={process.env.NEXT_PUBLIC_BASE_URL || "https://yoursite.com"}
       />
-      <article className="container mx-auto py-8 md:py-12">
+      <article className="container py-8 md:py-12">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild>
             <Link href="/posts">

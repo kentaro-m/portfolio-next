@@ -46,7 +46,7 @@ export function LatestPostsSection() {
           Recent thoughts and tutorials from my blog.
         </p>
       </div>
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-1 md:max-w-[64rem] md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-1 md:max-w-[67.5rem] md:grid-cols-2 lg:grid-cols-3">
         {posts.map(post => (
           <Card key={post.slug} className="flex flex-col">
             <CardHeader>

@@ -23,7 +23,7 @@ export default function PostsPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="container mx-auto py-8 md:py-12">
+    <div className="container py-8 md:py-12">
       <div className="flex flex-col space-y-4 text-center mb-8">
         <h1 className="text-4xl font-bold tracking-tight lg:text-5xl">
           Blog Posts
