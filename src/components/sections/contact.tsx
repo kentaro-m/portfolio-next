@@ -24,7 +24,7 @@ export function ContactSection() {
           Let&apos;s connect!
         </p>
       </div>
-      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-1 md:max-w-[67.5rem] md:grid-cols-3">
+      <div className="mx-auto grid justify-center gap-4 grid-cols-1 max-w-md sm:max-w-lg md:max-w-[67.5rem] md:grid-cols-3">
         <Card>
           <CardHeader className="text-center">
             <Mail className="h-12 w-12 mx-auto mb-4 text-primary" />
